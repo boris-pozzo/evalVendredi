@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main-container">
+
+        <div id="header">
+            <select id="select">
+                <option value="1">LIKE</option>
+                <option value="2">NOT LIKE</option>
+                <option value="3">LEARNED</option>
+                <option value="4">NOT LEARNED</option>
+            </select>
+            <input type="text" id="input" placeholder="New Todo">
+            <button id="button">SEND</button>
+
+        </div>
+
+        <div id="list-container">
+
+            <ul id="list-like" class="list-c">
+                <li class="list-title">LIKE</li>
+            </ul>
+            <ul id="list-not-like" class="list-c">
+                <li class="list-title">NOT LIKE</li>
+            </ul>
+            <ul id="list-learned" class="list-c">
+                <li class="list-title">LEARNED</li>
+            </ul>
+            <ul id="list-not-learned" class="list-c">
+                <li class="list-title">NOT LEARNED</li>
+            </ul>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
